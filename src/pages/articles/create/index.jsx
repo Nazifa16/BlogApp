@@ -33,7 +33,7 @@ const initialValues = {
   desc: "",
   cover_url: "",
   // images: ["", ""],
-  category: null,
+  category: "",
   time: Date.now(),
 };
 
