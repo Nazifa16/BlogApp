@@ -24,7 +24,7 @@ import { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ROUTER } from "../../../constant/router";
 import { crtBlog, getBlogId, uptBlog } from "../../../services/articles";
-import { useFetchData } from "../../../../../Group8271/ModernFrontEnd/Topic10/blog-app/src/hooks/useFetchData";
+import { useFetchData } from "../../../hooks/useFetchData";
 // import { AddIcon } from "@chakra-ui/icons";
 const defaultImg =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNZcEIRZucZlqbOJpbEPlAcrj7OR7rgNKmj5m4Az8lg&s";
